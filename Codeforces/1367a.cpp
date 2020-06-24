@@ -1,3 +1,8 @@
+/*Note that the first two characters of a match the first two characters of b. The third character of the string b again matches the second character of a (since it is the first character in the second substring, which contains the second and the third character of a). The fourth character b matches with the third character of a.
+
+It is easy to notice that such a pattern continues further. That is, the string a
+consists of the first character b and all characters at even positions in b.*/
+
 #include<bits/stdc++.h>
 
 using namespace std;
@@ -5,38 +10,17 @@ using namespace std;
 int main()
 {
     int t;
-    cin >>t;
+    cin >> t;
 
     while(t--)
     {
-        string s;
-        cin >> s;
-        char ans[1000];
-        if(s.length() > 2)
+        string b;
+        cin >> b;
+        string a = b.substr(0, 2);
+        for(int i = 3; i < b.size(); i += 2)
         {
-            int j = 0;
-            ans[j] = s[0];
-            j = 1;
-            for(int i = 1; i < s.length(); ++i)
-            {
-                if(s[i] == s[i+1])
-                {
-                    ans[j] = s[i];
-                    j++;
-                    i++;
-                }
-                else
-                {
-                    ans[j] = s[i];
-                    j++;
-                }
-            }
-            ans[j] = s[s.length()];
-            cout << ans << endl;
+            a += b[i];
         }
-        else
-        {
-            cout << s << endl;
-        }
+        cout << a << endl;
     }
 }
