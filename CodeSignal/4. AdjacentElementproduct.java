@@ -5,7 +5,6 @@ int adjacentElementsProduct(int[] arr) {
         int product = arr[i]*arr[i+1];
         if(product > result)
             result = product;
-        
     }
     
     return result;
