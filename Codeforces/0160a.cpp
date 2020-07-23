@@ -2,6 +2,11 @@
 
 using namespace std;
 
+bool cmp(int a, int b)
+{
+    return a > b;
+}
+
 int main()
 {
     int n, total = 0, mine = 0;
@@ -13,18 +18,8 @@ int main()
         cin >> arr[i];
         total += arr[i];
     }
-    for(int i = 0; i < n; i++)
-    {
-        for(int j = i+1; j < n; j++)
-        {
-            if(arr[j] > arr[i])
-            {
-                int temp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = temp;
-            }
-        }
-    }
+
+    sort(arr, arr+n, cmp);
 
     int i = 0;
     while(mine <= total/2)
