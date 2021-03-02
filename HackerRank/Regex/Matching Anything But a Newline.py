@@ -1,4 +1,4 @@
-regex_pattern = r"...\....\....\...."	# Do not delete 'r'.
+regex_pattern = r"...\....\....\....$"	# Do not delete 'r'.
 
 # This pattern expects strings like:
 
