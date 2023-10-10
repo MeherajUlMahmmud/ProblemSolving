@@ -6,21 +6,21 @@ A curated Leetcode problems list with solutions.
 
 -   Array & Hashing
     -   Two Pointers
-        -   Binary Search
-        -   Sliding Window
-        -   Linked List
-            -   Trees
-                -   Tries
-                -   Heap / Priority Queue
-                    -   Intervals
-                    -   Greedy
-                -   Backtracking
-                    -   Graphs
-                        -   Advanced Graphs
-                    -   1-D DP
-                        -   2-D DP
-                        -   Bit Manipulation
-                            -   Math & Geometry
+    -   Binary Search
+    -   Sliding Window
+    -   Linked List
+        -   Trees
+            -   Tries
+            -   Heap / Priority Queue
+                -   Intervals
+                -   Greedy
+            -   Backtracking
+                -   Graphs
+                    -   Advanced Graphs
+                -   1-D DP
+                    -   2-D DP
+                    -   Bit Manipulation
+                        -   Math & Geometry
     -   Stack
 
 ## 🔗 Problem Links
@@ -35,10 +35,10 @@ A curated Leetcode problems list with solutions.
 
 -   [ ] [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) - MEDIUM
 
--   [ ] []() - MEDIUM
+-   [ ] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) - MEDIUM
 
--   [ ] []() - MEDIUM
+-   [ ] [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) - MEDIUM
 
--   [ ] []() - MEDIUM
+-   [ ] [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) - MEDIUM
 
--   [ ] []() - MEDIUM
+-   [ ] [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) - MEDIUM
