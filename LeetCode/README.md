@@ -36,7 +36,7 @@ Reference
 
 ### Array & Hashing
 
--   [ ] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) - EASY - [Solution1 - Python](), [Solution2 - Python](), [Solution3 - Python](), [Solution4 - CPP]()
+-   [ ] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) - EASY - [Solution1 - Python](</LeetCode/0217.%20Contains%20Duplicate%20(1).py>), [Solution2 - Python](</LeetCode/0217.%20Contains%20Duplicate%20(2).py>), [Solution3 - Python](</LeetCode/0217.%20Contains%20Duplicate%20(3).py>), [Solution4 - CPP](/LeetCode/0217.%20Contains%20Duplicate.cpp)
 
 -   [ ] [Valid Anagram](https://leetcode.com/problems/valid-anagram/) - EASY - [Solution1](), [Solution2]()
 
