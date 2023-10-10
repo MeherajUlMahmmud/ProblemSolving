@@ -29,7 +29,7 @@ A curated Leetcode problems list with solutions.
 
 [ ] [Valid Anagram](https://leetcode.com/problems/valid-anagram/) - EASY
 
-[ ] [Two Sum](https://leetcode.com/problems/two-sum/) - EASY
+[x] [Two Sum](https://leetcode.com/problems/two-sum/) - EASY
 
 [] [Group Anagrams](https://leetcode.com/problems/group-anagrams/) - MEDIUM
 
