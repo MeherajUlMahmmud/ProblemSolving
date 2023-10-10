@@ -23,7 +23,14 @@ A curated Leetcode problems list with solutions.
                         -   [ ] [Math & Geometry](#math--geometry)
     -   [ ] [Stack](#stack)
 
-<!-- add an image -->
+## 📝 Roadmap
+
+![alt text](/assets/neetcode-roadmap.png?raw=true)
+
+Reference
+
+-   [Neetcode Raodmap](https://neetcode.io/roadmap)
+-   [Leetcode Patterns](https://seanprashad.com/leetcode-patterns/)
 
 ## 📚 Resources
 
