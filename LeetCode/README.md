@@ -2,7 +2,7 @@
 
 A curated Leetcode problems list with solutions.
 
-## Roadmap
+## 📝 Table of Contents
 
 -   [ ] [Array & Hashing](#array--hashing)
     -   [ ] [Two Pointers](#two-pointers)
@@ -23,7 +23,9 @@ A curated Leetcode problems list with solutions.
                         -   [ ] [Math & Geometry](#math--geometry)
     -   [ ] [Stack](#stack)
 
-## 🔗 Problem Links
+<!-- add an image -->
+
+## 📚 Resources
 
 ### Array & Hashing
 
@@ -44,3 +46,46 @@ A curated Leetcode problems list with solutions.
 -   [ ] [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) - MEDIUM - [Solution1](), [Solution2]()
 
 -   [ ] [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) - MEDIUM - [Solution1](), [Solution2]()
+
+### Two Pointers
+
+### Binary Search
+
+### Sliding Window
+
+### Linked List
+
+### Trees
+
+### Tries
+
+### Heap / Priority Queue
+
+### Intervals
+
+### Greedy
+
+### Backtracking
+
+### Graphs
+
+### Advanced Graphs
+
+### 1-D DP
+
+### 2-D DP
+
+### Bit Manipulation
+
+### Math & Geometry
+
+### Stack
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
+
+## 🔗 Links
+
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://meheraj.netlify.app/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/meherajulmahmmud/)
