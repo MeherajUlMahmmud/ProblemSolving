@@ -4,7 +4,7 @@ A curated Leetcode problems list with solutions.
 
 ## Roadmap
 
--   Array & Hashing
+-   [Array & Hashing](#array--hashing)
     -   Two Pointers
     -   Binary Search
     -   Sliding Window
@@ -24,6 +24,8 @@ A curated Leetcode problems list with solutions.
     -   Stack
 
 ## 🔗 Problem Links
+
+### Array & Hashing
 
 -   [ ] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) - EASY
 
