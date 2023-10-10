@@ -25,11 +25,11 @@ A curated Leetcode problems list with solutions.
 
 ## 🔗 Problem Links
 
-[] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) - EASY
+[ ] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) - EASY
 
-[] [Valid Anagram](https://leetcode.com/problems/valid-anagram/) - EASY
+[ ] [Valid Anagram](https://leetcode.com/problems/valid-anagram/) - EASY
 
-[] [Two Sum](https://leetcode.com/problems/two-sum/) - EASY
+[ ] [Two Sum](https://leetcode.com/problems/two-sum/) - EASY
 
 [] [Group Anagrams](https://leetcode.com/problems/group-anagrams/) - MEDIUM
 
