@@ -8,24 +8,54 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
-class Solution {
+class Solution
+{
 public:
-    ListNode* mergeTwoLists(ListNode* a, ListNode* b) {
-        ListNode* result = NULL;
-        
-        if(a == NULL)
-            return b;
-        else if(b == NULL)
-            return a;
-        
-        if(a->val <= b->val) {
-            result = a;
-            result->next = mergeTwoLists(a->next, b);
+    ListNode *mergeTwoLists(ListNode *a, ListNode *b)
+    {
+        // ListNode* result = NULL;
+
+        // if(a == NULL)
+        //     return b;
+        // else if(b == NULL)
+        //     return a;
+
+        // if(a->val <= b->val) {
+        //     result = a;
+        //     result->next = mergeTwoLists(a->next, b);
+        // }
+        // else {
+        //     result = b;
+        //     result->next = mergeTwoLists(a, b->next);
+        // }
+        // return result;
+
+        ListNode fake(-1);
+        ListNode *last = &fake;
+        while (l1 != NULL && l2 != NULL)
+        {
+            if (l1->val < l2->val)
+            {
+                last->next = l1;
+                last = l1;
+                l1 = l1->next;
+            }
+            else
+            {
+                last->next = l2;
+                last = l2;
+                l2 = l2->next;
+            }
         }
-        else {
-            result = b;
-            result->next = mergeTwoLists(a, b->next);
+        if (l1 != NULL)
+        {
+            last->next = l1;
         }
-        return result;
+        if (l2 != NULL)
+        {
+            last->next = l2;
+        }
+
+        return fake.next;
     }
 };
